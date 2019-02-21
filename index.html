@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Crystal Collector!</h1>
+    </div>
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific ammount of points to your total score</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above teh random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each crystal.</p>
+    </div>
+    <div class="numberMatch">
+        <span id="randomNumber"></span>
+    </div>
+    <div class="winsLosses">
+        <span id="winsTotal">Wins: </span>
+        <span id="lossesTotal">Losses: </span>
+    </div>
+    <div class="gems">
+        <img src="assets/images/diamond.png" id="gem1" alt='diamond'>
+        <img src="assets/images/emerald.png" id='gem2' alt='emerald'>
+        <img src='assets/images/purp.png' id='gem3' alt='gold'>
+        <img src="assets/images/ruby.png" id="gem4" alt="ruby">
+    </div>
+    <div class="playerTotal">
+        <h3>Your total is:</h3>
+    </div>
+    <div class="totalDisplay">
+        <span id="totalNumber"></span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

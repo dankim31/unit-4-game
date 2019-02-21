@@ -1,0 +1,56 @@
+/* Body Background */
+body {
+    background: url("../images/crossline-lines.png");
+}
+/* Header Style */
+h1 {
+    width: 300px;
+    margin: 10px;
+    padding: 10px 0px;
+    background-color: darkorange;
+    color: whitesmoke;
+    text-align: center;
+}
+/* Paragraph*/
+.instructions {
+    width: 600px;
+    background-color: tan;
+    margin: 10px;
+    padding: 30px 0px;
+    color: darkgreen;
+}
+
+/* Number Match */
+.numberMatch {
+    width: 200px;
+    height: 100px;
+    background: coral;
+    margin: 10px;
+    float: left;
+}
+/* Wins Losses */
+.winsLosses {
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    display: inline-block;
+    margin: 10px;
+}
+/* Image */
+img {
+    width: 120px;
+    padding: 10px;
+}
+/* Your Score */
+.playerTotal {
+    background: turquoise;
+    width: 200px;
+    margin: 10px;
+}
+/* Player Score Display */
+.totalDisplay {
+    background: turquoise;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
